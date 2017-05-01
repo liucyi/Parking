@@ -1,0 +1,35 @@
+<ion-view view-title="百度地图测试">
+    <ion-content>
+        <ion-list>
+            <ion-item>
+                <button class="button button-block button-calm" ng-click="getpoint()"> 开始定位 </button>
+            </ion-item>
+            <ion-item>
+                经度：{{ret.longitude}}    纬度：{{ret.latitude}}
+            </ion-item>
+            <ion-item>
+                <div id="allmap" style="height: 600px;">
+
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
+<!--<ion-view view-title="百度插件定位">
+    <ion-content class="padding">
+        <button class="button button-block button-positive icon-left "  ng-click="tirarFoto()">
+            获取地理定位
+        </button>
+      
+        <p>定位数据</p> 
+        {{data}}
+        <p>数据2</p>
+        {{team}} 
+        <div id="allmap"></div>
+        <div id="r-result">
+            经度: <input id="longitude" type="text" style="width:100px; margin-right:10px;" />
+            纬度: <input id="latitude" type="text" style="width:100px; margin-right:10px;" />
+            <input type="button" value="查询" onclick="tirarFoto()" />
+        </div>
+    </ion-content>
+</ion-view>-->

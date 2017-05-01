@@ -1,0 +1,21 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1.2.2"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.qdc.plugins.baidu.location": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/liyujun1989/cordova-qdc-baidu-location",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {
+            "API_KEY": "Iit4bZr84yPaFQNuNW5vLcXzG0NaxrvG"
+        }
+    }
+}
